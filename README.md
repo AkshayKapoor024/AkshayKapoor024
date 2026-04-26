@@ -151,30 +151,6 @@ This portfolio is a reflection of:
 - ✨ Smooth animation integration  
 
 It represents how I think as a developer.
-
----
-
-# 🌐 Suggested Portfolio Domain Names
-
-### 🔥 Premium & Clean
-- akshay.dev  
-- akshayengine.dev  
-- buildwithakshay.com  
-- akshaycodes.dev  
-
-### 🧠 Modern & Unique
-- akshaylabs.dev  
-- akshaystack.dev  
-- akshayworks.dev  
-- akshayverse.dev  
-
-### 🚀 Strong Personal Branding
-- heyakshay.dev  
-- theakshay.dev  
-- akshaybuilds.dev  
-
-> Recommended: **akshay.dev** (clean, powerful, timeless)
-
 ---
 
 <p align="center">
