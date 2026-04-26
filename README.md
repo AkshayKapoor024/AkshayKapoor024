@@ -123,7 +123,7 @@ They are built to demonstrate engineering depth — not tutorial replication.
 
 <p align="center">
 
-<a href="YOUR_PORTFOLIO_LINK">
+<a href="https://akshaydev-beryl.vercel.app/">
   <img src="https://img.shields.io/badge/Portfolio-Visit-f45a33?style=for-the-badge&logo=vercel&logoColor=white" />
 </a>
 
