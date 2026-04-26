@@ -2,27 +2,28 @@
 <!--          HERO SECTION           -->
 <!-- =============================== -->
 
-<h1 align="center">
-  <span style="color:#f45a33;">Akshay</span> 
-  <span style="color:#22C3AD;">| Full-Stack AI/ML Engineer</span>
+<h1 align="center" style="font-size: 3rem;">
+  <span style="color:#f45a33;">Akshay</span>
 </h1>
+<h2 align="center" style="color:#22C3AD;">
+  Full-Stack AI/ML Engineer
+</h2>
 
 <p align="center">
-  <b>Building scalable web systems powered by intelligent AI workflows.</b>
+  <b>Crafting scalable web systems & intelligent AI applications.</b>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/AI/ML-Engineer-f45a33?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Generative-AI-22C3AD?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Full-Stack-Developer-8347EA?style=for-the-badge" />
+  <!-- Replace with cool icons instead of bland badges -->
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,python,tensorflow,pytorch" />
 </p>
 
 ---
 
 # 👨‍💻 About Me
 
-Hi 👋 I'm **Akshay**, a B.Tech student and developer passionate about merging **web engineering** with **AI innovation**.  
-I craft real-world applications that combine **clean architecture**, **scalable design**, and **intelligent systems**.
+Hi 👋 I'm **Akshay**, a B.Tech student passionate about merging **web engineering** with **AI innovation**.  
+I build real-world applications that combine **clean architecture**, **scalable design**, and **intelligent systems**.
 
 ---
 
@@ -31,27 +32,26 @@ I craft real-world applications that combine **clean architecture**, **scalable 
 <p align="center">
   <!-- Languages -->
   <img src="https://skillicons.dev/icons?i=html,css,js,typescript,java,python,c,cpp" />
-  <br/>
+  <br/><br/>
   <!-- Web Dev -->
   <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,bootstrap,nodejs,express,mongodb,firebase,ejs" />
-  <br/>
+  <br/><br/>
   <!-- Tools -->
   <img src="https://skillicons.dev/icons?i=git,github,postman,docker,aws,vscode,npm" />
-  <br/>
+  <br/><br/>
   <!-- AI/ML -->
   <img src="https://skillicons.dev/icons?i=tensorflow,pytorch" />
-  <br/>
-  <!-- Extra (custom logos for ML/AI libs) -->
-  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/seaborn-0099CC?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangChain-1C1C1C?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangGraph-2E86C1?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/CrewAI-FF5733?style=for-the-badge&logoColor=white" />
+</p>
+
+<p align="center">
+  <!-- Extra ML/AI libs (custom logos if no skillicon exists) -->
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/pandas.svg" width="40" />
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/numpy.svg" width="40" />
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/scikitlearn.svg" width="40" />
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/streamlit.svg" width="40" />
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/fastapi.svg" width="40" />
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/flask.svg" width="40" />
+  <!-- LangChain, LangGraph, CrewAI (custom logos or placeholders) -->
 </p>
 
 ---
@@ -59,17 +59,20 @@ I craft real-world applications that combine **clean architecture**, **scalable 
 # 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=AkshayKapoor024&color=f45a33&style=for-the-badge" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=AkshayKapoor024&color=22C3AD&style=for-the-badge" alt="Profile Views" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AkshayKapoor024&show_icons=true&theme=radical&hide_border=true" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AkshayKapoor024&theme=radical&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=AkshayKapoor024&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AkshayKapoor024&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AkshayKapoor024&layout=compact&theme=radical&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AkshayKapoor024&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
+
+<!-- Optional: Add more analytics if supported -->
+<!-- Example: Repo clones, forks, contributions graph -->
 
 ---
 
@@ -86,7 +89,7 @@ I craft real-world applications that combine **clean architecture**, **scalable 
     <img src="https://skillicons.dev/icons?i=github" width="50" />
   </a>
   <a href="https://leetcode.com/temp-link">
-    <img src="https://skillicons.dev/icons?i=leetcode" width="50" />
+    <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/leetcode.svg" width="50" />
   </a>
 </p>
 
@@ -95,9 +98,10 @@ I craft real-world applications that combine **clean architecture**, **scalable 
 # ✨ Animated Flair
 
 <p align="center">
-  <img src="https://media.giphy.com/media/26AHONQ79FdWZhAI0/giphy.gif" width="200" />
-  <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="200" />
-  <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="200" />
+  <!-- Replace with subtle transparent GIFs (like birds you showed) -->
+  <img src="https://media.giphy.com/media/2A75RyXVzzSI2bx4Gj/giphy.gif" width="120" />
+  <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="120" />
+  <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="120" />
 </p>
 
 ---
