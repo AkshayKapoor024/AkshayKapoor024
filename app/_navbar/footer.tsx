@@ -19,7 +19,7 @@ export default function Footer() {
                         Akshay <span className="text-white">Kapoor</span>
                     </div>
                     <div className="text-gray-400 text-sm sm:text-base">
-                        MERN Stack Developer
+                        Full Stack AI/ML Engineer
                     </div>
                 </div>
 

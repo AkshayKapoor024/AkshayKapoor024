@@ -12,6 +12,8 @@ export default function Certifications() {
         { src: "/DSA.jpg", caption: "Data Structures & Algorithms in Java" },
         { src: "/DataScience.jpg", caption: "Data Science Certification" },
         { src: "/MERN.jpg", caption: "MERN Stack Developement Certificate" },
+        { src: '/ML DL Certificate.jpeg', caption: "Machine Learning Certificate" },
+        { src: '/GEN_AI Certificate.jpg', caption: "Generative AI Certificate" }
     ];
 
     return (

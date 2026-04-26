@@ -32,17 +32,18 @@ export default function AboutMe() {
                             </div>
 
                             <p className="text-sm sm:text-base">
-                                I’m a BTech student who discovered web development early on and never looked back. What began as curiosity about how websites work turned into a passion for building <span className="text-[#F45A33]" style={{ fontWeight: "600" }}>scalable , production-ready systems</span>
+                                I’m a BTech student who discovered web development early on and never looked back. What began as curiosity about how websites work turned into a passion for building <span className="text-[#F45A33]" style={{ fontWeight: "600" }}>scalable , production-ready systems</span>.
                             </p>
 
                             <p className="text-sm sm:text-base">
-                                Working deeply with the MERN stack taught me that good code isn’t just functional — it’s maintainable, well-structured, and built to scale. I’m now expanding into <span className="text-[#22C3AD]" style={{ fontWeight: "600" }}> Machine Learning and Generative AI</span> to understand ML Models beyond just implementations.
+                                Working deeply with the MERN stack taught me that good code isn’t just functional — it’s maintainable, well-structured, and built to scale. Alongside this, I’ve expanded into <span className="text-[#22C3AD]" style={{ fontWeight: "600" }}>Machine Learning , Deep Learning , and Generative AI</span>, exploring models and agentic workflows beyond simple implementations.
                             </p>
 
                             <p className="text-sm sm:text-base">
-                                I’m driven by complex problems — from real-time communication to authentication flows and API optimization — and I enjoy building systems that are <span className="text-[#8347EA]" style={{ fontWeight: "600" }}>robust , efficient , and ready</span> for the real world.
+                                I’m driven by complex problems — from real-time communication to authentication flows, API optimization, and intelligent pipelines — and I enjoy building systems that are <span className="text-[#8347EA]" style={{ fontWeight: "600" }}>robust , efficient , and ready</span> for the real world.
                             </p>
                         </div>
+
 
                         <div className="flex flex-col sm:flex-row gap-5 w-full justify-center items-center">
 
@@ -52,7 +53,7 @@ export default function AboutMe() {
                             </div>
 
                             <div className="w-full sm:w-[30%] 2xl:w-[30%] py-4 bg-[#22C3AD25] ring-2 ring-[#22C3AD50] rounded-2xl flex flex-col items-center">
-                                <div className="text-[#22C3AD] text-xl sm:text-2xl 2xl:text-2xl" style={{ fontWeight: "600" }}>10+</div>
+                                <div className="text-[#22C3AD] text-xl sm:text-2xl 2xl:text-2xl" style={{ fontWeight: "600" }}>15+</div>
                                 <div className="text-gray-600 text-sm sm:text-base">Technologies</div>
                             </div>
 
@@ -109,7 +110,7 @@ export default function AboutMe() {
                             <motion.div initial={{ opacity: 0, x: 100 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }} viewport={{ once: true }} className="w-[90%] sm:w-auto rounded-xl shadow-2xl bg-white min-h-[140px] sm:min-h-[160px]  xl:h-auto 2xl:h-auto p-4 sm:p-5 flex flex-col gap-2 items-start ring-2 ring-gray-200">
                                 <div className="bg-[#ed5ea515] text-[#ed5ea5] px-3 py-1 rounded-2xl text-sm sm:text-base" style={{ fontWeight: "500" }}>2026</div>
                                 <div className="text-base sm:text-lg" style={{ fontWeight: "600" }}>Machine Learning & Gen AI</div>
-                                <div className="text-gray-500 text-xs sm:text-sm">Expanding knowledge into machine learning algorithms , models and how large LLM's work.</div>
+                                <div className="text-gray-500 text-xs sm:text-sm">Expanded knowledge into machine learning algorithms , models and how large LLM's work.</div>
                             </motion.div>
 
                         </div>

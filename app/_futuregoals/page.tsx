@@ -60,7 +60,7 @@ export default function FutureGoals() {
                                 <div className="px-3 sm:px-4 py-1 bg-[#f45a33] rounded-xl text-white text-xs sm:text-sm">In Progress</div>
                             </div>
                             <div className="text-sm sm:text-base text-gray-500">
-                                Building strong foundations in supervised & unsupervised learning, model evaluation, and feature engineering.
+                                Applying ML techniques to real-world projects like recommendation systems, fraud detection, and predictive analytics.
                             </div>
                         </div>
                     </motion.div>
@@ -85,7 +85,7 @@ export default function FutureGoals() {
                                 <div className="px-3 sm:px-4 py-1 bg-[#22c3ad] rounded-xl text-white text-xs sm:text-sm">Learning</div>
                             </div>
                             <div className="text-sm sm:text-base text-gray-500">
-                                Mastering neural networks, CNNs, RNNs, and transformers for solving complex real-world problems.
+                                Expanding expertise with PyTorch and advanced architectures, focusing on multimodal models and reinforcement learning.
                             </div>
                         </div>
                     </motion.div>
@@ -110,7 +110,7 @@ export default function FutureGoals() {
                                 <div className="px-3 sm:px-4 py-1 bg-[#8347EA] rounded-xl text-white text-xs sm:text-sm">Exploring</div>
                             </div>
                             <div className="text-sm sm:text-base text-gray-500">
-                                Exploring LLMs, prompt engineering, RAG pipelines, and fine-tuning for intelligent applications.
+                                Building end-to-end GenAI applications with agentic workflows, integrating LLMs into production systems for practical use cases.
                             </div>
                         </div>
                     </motion.div>
@@ -135,7 +135,7 @@ export default function FutureGoals() {
                                 <div className="px-3 sm:px-4 py-1 bg-[#ED5EA5] rounded-xl text-white text-xs sm:text-sm">Goal</div>
                             </div>
                             <div className="text-sm sm:text-base text-gray-500">
-                                Deploying ML models at scale with proper pipelines, monitoring, and production-grade infrastructure.
+                                Designing scalable pipelines with CI/CD, containerization, and monitoring to ensure reliable AI deployment in production.
                             </div>
                         </div>
                     </motion.div>

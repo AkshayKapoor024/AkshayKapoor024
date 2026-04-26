@@ -47,7 +47,15 @@ export default function Hero() {
                         <li></li>
                     </ul>
                     <Typewriter
-                        words={["Full Stack Developer", "MERN Specialist", "Next.js Developer", "ML Enthusiast"]}
+                        words={[
+                        "Full Stack Developer",
+                        "MERN & Next.js Specialist",
+                        "Machine Learning Engineer",
+                        "Deep Learning Practitioner",
+                        "Generative AI Innovator",
+                        "Agentic AI Explorer"
+                        ]}
+
                         loop={true}
                         cursor
                         cursorStyle="|"
@@ -58,11 +66,11 @@ export default function Hero() {
                 </div>
 
                 <div className="text-sm sm:text-base md:text-lg lg:text-lg xl:text-xl 2xl:text-xl w-full sm:w-[80%] md:w-[70%] lg:w-[60%] xl:w-[55%] 2xl:w-[50%] text-center text-gray-500">
-                    Building <span className="text-[#f45a33]" style={{ fontWeight: "600" }}>scalable</span> ,{" "}
-                    <span className="text-[#22c3ad]" style={{ fontWeight: "600" }}>real-world systems</span>{" "}
-                    with modern technologies. Passionate about{" "}
-                    <span className="text-[#8347ea]" style={{ fontWeight: "600" }}>clean architecture</span>{" "}
-                    and continuous learning.
+                Building <span className="text-[#f45a33]" style={{ fontWeight: "600" }}>scalable</span>,{" "}
+                <span className="text-[#22c3ad]" style={{ fontWeight: "600" }}>intelligent systems</span>{" "}
+                with modern technologies. Passionate about{" "}
+                <span className="text-[#8347ea]" style={{ fontWeight: "600" }}>AI innovation</span>{" "}
+                and continuous learning.
                 </div>
 
                 {/* Buttons */}
