@@ -79,13 +79,18 @@ What excites me most is the intersection of **Generative AI** and **Agentic AI**
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AkshayKapoor024&show_icons=true&theme=tokyonight&hide_border=true" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=AkshayKapoor024&theme=tokyonight&hide_border=true" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AkshayKapoor024&theme=tokyonight" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AkshayKapoor024&layout=compact&theme=tokyonight&hide_border=true" />
+  
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AkshayKapoor024&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AkshayKapoor024&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AkshayKapoor024&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=AkshayKapoor024&theme=tokyonight&utcOffset=5.5" />
 </p>
+
 
 <!-- Optional: Add more analytics if supported -->
 <!-- Example: Repo clones, forks, contributions graph -->
