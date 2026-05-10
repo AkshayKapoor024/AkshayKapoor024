@@ -6,7 +6,7 @@
   <span style="color:#f45a33;">Akshay Kapoor</span>
 </h1>
 <h2 align="center" style="color:#22C3AD;">
-  Full-Stack AI/ML Engineer
+  Full-Stack Web Developer | AI/ML Engineer
 </h2>
 
 <p align="center">
