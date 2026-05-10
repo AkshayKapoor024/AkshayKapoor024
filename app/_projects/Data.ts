@@ -12,6 +12,55 @@ export interface projectSchema {
 }
 export const projectsData: projectSchema[] = [
     {
+        title: "Vantaguard 🛡️",
+
+        shortDescription:
+            "An AI-powered, multi-agent security platform featuring dynamic sandbox verification and contextual conversational auditing.",
+
+        overview:
+            "Vantaguard is an advanced security auditing platform designed to autonomously analyze, verify, and report software vulnerabilities. Built on a stateful LangGraph architecture, it utilizes isolated Docker sandboxes to bridge the gap between static analysis and dynamic execution. The system features intelligent routing and persistent memory, providing developers with continuous, context-aware security insights.",
+
+        problem:
+            "Traditional Static Application Security Testing (SAST) tools often generate high volumes of false positives. Developers waste significant time triaging theoretical vulnerabilities without an immediate, safe environment to verify actual exploitability.",
+
+        solution:
+            "Vantaguard introduces a multi-agent workflow that actively verifies threats. It clones repositories, formulates exploits, and dynamically installs dependencies inside secure, non-root Docker sandboxes to execute proof-of-concept scripts, significantly reducing false positives.",
+
+        keyFeatures: [
+            "Multi-Agent Orchestration Workflow",
+            "Dynamic Sandbox Exploit Verification",
+            "Contextual Conversational Memory",
+            "Automated Dependency Resolution",
+            "Intelligent Fail-Safe Routing",
+            "Ephemeral Container Execution",
+            "Automated Resource Cleanup",
+            "Human-Readable Audit Reports",
+            "OS-Agnostic Compatibility",
+            "Secure Session Authentication"
+        ],
+
+        techStack: [
+            "FastAPI",
+            "Python 3.11",
+            "LangGraph",
+            "LangChain",
+            "Docker",
+            "MongoDB",
+            "Groq API",
+            "Google Gemini API",
+            "Streamlit"
+        ],
+
+        codeLink:
+            "https://github.com/AkshayKapoor024/Multi-Agent-Security-Auditor",
+
+        liveLink:
+            "http://35.154.61.226:8501/", // Update with your actual deployment link
+
+        thumbnail:
+            "/Vantaguard.png" // Point this to the image we generated
+    },
+    {
         title: "CodeArena",
         shortDescription:
             "A real-time 1v1 competitive coding platform with matchmaking, live code evaluation, and AI-powered complexity analysis.",
@@ -57,7 +106,7 @@ export const projectsData: projectSchema[] = [
 
         liveLink:
             "https://codearena-murex.vercel.app",
-        thumbnail:"/CodeArena.png"
+        thumbnail: "/CodeArena.png"
     },
 
     {
@@ -115,55 +164,55 @@ export const projectsData: projectSchema[] = [
 
     },
 
-    {
-        title: "Voyagr",
-        shortDescription:
-            "A full-stack travel and booking platform, featuring listings, reviews, cloud image handling, and secure authentication.",
+    // {
+    //     title: "Voyagr",
+    //     shortDescription:
+    //         "A full-stack travel and booking platform, featuring listings, reviews, cloud image handling, and secure authentication.",
 
-        overview:
-            "Voyagr is a full-stack travel listing and booking platform inspired by Airbnb and Trivago. It enables users to create and manage property listings, upload images to the cloud, submit reviews, and securely authenticate through a robust session-based architecture. Built using an MVC structure, the application emphasizes backend stability, schema validation, middleware chaining, and cloud integrations, demonstrating production-grade full-stack development practices.",
+    //     overview:
+    //         "Voyagr is a full-stack travel listing and booking platform inspired by Airbnb and Trivago. It enables users to create and manage property listings, upload images to the cloud, submit reviews, and securely authenticate through a robust session-based architecture. Built using an MVC structure, the application emphasizes backend stability, schema validation, middleware chaining, and cloud integrations, demonstrating production-grade full-stack development practices.",
 
-        problem:
-            "Travel listing platforms require structured backend architecture, secure authentication, reliable image handling, and strong validation mechanisms to ensure scalable and maintainable operations.",
+    //     problem:
+    //         "Travel listing platforms require structured backend architecture, secure authentication, reliable image handling, and strong validation mechanisms to ensure scalable and maintainable operations.",
 
-        solution:
-            "Voyagr implements a structured MVC architecture with robust validation, cloud-based image storage, secure authentication using Passport.js, session persistence via MongoDB store, and role-based authorization to ensure safe listing and review management.",
+    //     solution:
+    //         "Voyagr implements a structured MVC architecture with robust validation, cloud-based image storage, secure authentication using Passport.js, session persistence via MongoDB store, and role-based authorization to ensure safe listing and review management.",
 
-        keyFeatures: [
-            "Listings & Reviews CRUD",
-            "Secure Authentication (Passport.js)",
-            "Role-Based Authorization",
-            "Cloudinary Image Uploads",
-            "Mapbox Location Integration",
-            "Server-Side Validation (Joi)",
-            "Session-Based Authentication",
-            "Custom Error Handling",
-            "Responsive Bootstrap UI",
-            "MVC Architecture Structure"
-        ],
+    //     keyFeatures: [
+    //         "Listings & Reviews CRUD",
+    //         "Secure Authentication (Passport.js)",
+    //         "Role-Based Authorization",
+    //         "Cloudinary Image Uploads",
+    //         "Mapbox Location Integration",
+    //         "Server-Side Validation (Joi)",
+    //         "Session-Based Authentication",
+    //         "Custom Error Handling",
+    //         "Responsive Bootstrap UI",
+    //         "MVC Architecture Structure"
+    //     ],
 
 
-        techStack: [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "Bootstrap",
-            "Node.js",
-            "Express.js",
-            "MongoDB Atlas",
-            "Mongoose",
-            "Passport.js",
-            "Cloudinary",
-            "Multer",
-            "Mapbox",
-            "EJS & EJS-Mate"
-        ],
+    //     techStack: [
+    //         "HTML",
+    //         "CSS",
+    //         "JavaScript",
+    //         "Bootstrap",
+    //         "Node.js",
+    //         "Express.js",
+    //         "MongoDB Atlas",
+    //         "Mongoose",
+    //         "Passport.js",
+    //         "Cloudinary",
+    //         "Multer",
+    //         "Mapbox",
+    //         "EJS & EJS-Mate"
+    //     ],
 
-        codeLink:
-            "https://github.com/AkshayKapoor024/featured-projects/tree/main/Voyagr",
+    //     codeLink:
+    //         "https://github.com/AkshayKapoor024/featured-projects/tree/main/Voyagr",
 
-        liveLink:
-            "https://voyagr-gd5b.onrender.com",
-        thumbnail: "/Voyagr.png"
-    }
+    //     liveLink:
+    //         "https://voyagr-gd5b.onrender.com",
+    //     thumbnail: "/Voyagr.png"
+    // }
 ];
