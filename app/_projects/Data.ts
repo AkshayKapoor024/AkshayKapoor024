@@ -12,6 +12,53 @@ export interface projectSchema {
 }
 export const projectsData: projectSchema[] = [
     {
+        title: "SynthMarket-AI 📈",
+        shortDescription:
+            "An AI-powered synthetic market simulation platform featuring adversarial multi-agent roleplay, persistent state management, and real-time boardroom debate.",
+
+        overview:
+            "SynthMarket-AI is a high-performance simulation platform designed to stress-test product profiles and business models through adversarial, multi-agent boardroom negotiations. Built on a stateful, persistent LangGraph architecture, the system autonomously generates adversarial buyer personas that cross-examine product viability, financial ROI, and security constraints in real-time, providing deep analytical insights grounded in vector-based documentation.",
+
+        problem:
+            "Traditional market research relies on static surveys and predictable algorithms that fail to capture the dynamic friction of real-world corporate decision-making. Developers and product managers often lack a high-fidelity environment to stress-test their ideas against adversarial critique before deployment.",
+
+        solution:
+            "SynthMarket-AI introduces a stateful, cyclic agent ecosystem that acts as a synthetic focus group. It combines dynamic persona generation, Astra DB-backed RAG, SQL-based graph persistence, and Human-in-the-Loop (HITL) interrupts to create a unique, interactive simulation environment that provides rigorous, role-specific feedback.",
+
+        keyFeatures: [
+            "Dynamic Adversarial Persona Generation",
+            "Stateful LangGraph Orchestration",
+            "SQL-based Persistent Graph Checkpointing",
+            "Human-in-the-Loop (HITL) Simulation Pivoting",
+            "Real-time Server-Sent Events (SSE) Streaming",
+            "Astra DB Vector-Grounded Contextual Retrieval",
+            "Round-Robin Multi-Agent Debate Logic",
+            "Groq Reasoning Engine Integration",
+            "MongoDB-backed Workspace Persistence",
+            "Seamless Streamlit Interactive Dashboard"
+        ],
+
+        techStack: [
+            "FastAPI",
+            "Python 3.11",
+            "LangGraph",
+            "LangChain",
+            "Astra DB (Vector Store)",
+            "MongoDB (PyMongo)",
+            "Groq API",
+            "Google Gemini API",
+            "Streamlit",
+            "SQL Checkpointer"
+        ],
+
+        codeLink: "https://github.com/AkshayKapoor024/SynthMarket-AI",
+
+        liveLink: "https://synthmarket-ai-frontend.vercel.app",
+
+        thumbnail: "/SynthmarketAI.png"
+    },
+    
+    {
         title: "Vantaguard 🛡️",
 
         shortDescription:
@@ -215,4 +262,5 @@ export const projectsData: projectSchema[] = [
     //         "https://voyagr-gd5b.onrender.com",
     //     thumbnail: "/Voyagr.png"
     // }
+
 ];
