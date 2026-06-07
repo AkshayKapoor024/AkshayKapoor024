@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+@plugin '../hero.ts';
+@source '../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
+
+/* ═══════════════════════════════════════════════════
+   DESIGN SYSTEM — Editorial Tech Dark
+   Palette: Obsidian blacks · Electric blue accent · Pure white type
+   Font: Syne (display) + DM Mono (code) + Geist (body)
+   Philosophy: Sharp geometry · Sparse color · Maximum contrast
+════════════════════════════════════════════════════ */
+
+
+:root {
+  /* Surfaces */
+  --c-bg:        #08080c;
+  --c-surface:   #0d0d14;
+  --c-card:      #111118;
+  --c-card-2:    #16161f;
+  --c-border:    rgba(255,255,255,0.07);
+  --c-border-hi: rgba(255,255,255,0.14);
+
+  /* Accent — single sharp blue */
+  --c-blue:      #4f8ef7;
+  --c-blue-dim:  rgba(79,142,247,0.12);
+  --c-blue-ring: rgba(79,142,247,0.28);
+
+  /* Type */
+  --c-white:   #f5f5f7;
+  --c-grey-1:  #a0a0b0;
+  --c-grey-2:  #5a5a70;
+  --c-grey-3:  #2e2e3a;
+
+  /* Status / category accent marks only */
+  --c-green:  #30d158;
+  --c-amber:  #ffd60a;
+}
+
+/* ── Reset & base ────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--c-bg);
+  color: var(--c-white);
+  font-family: 'Syne', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Scrollbar ───────────────────────────── */
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: var(--c-bg); }
+::-webkit-scrollbar-thumb { background: var(--c-blue); border-radius: 2px; }
+
+/* ── Mono utility ────────────────────────── */
+.mono { font-family: 'DM Mono', monospace; }
+
+/* ── Section label (e.g. "01 — ABOUT") ──── */
+.sec-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--c-blue);
+}
+.sec-label::before {
+  content: '';
+  display: block;
+  width: 24px;
+  height: 1px;
+  background: var(--c-blue);
+}
+
+/* ── Horizontal rule ─────────────────────── */
+.rule { width: 100%; height: 1px; background: var(--c-border); }
+
+/* ── Card base ───────────────────────────── */
+.card {
+  background: var(--c-card);
+  border: 1px solid var(--c-border);
+  border-radius: 12px;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+.card:hover { border-color: var(--c-border-hi); background: var(--c-card-2); }
+.card-blue:hover { border-color: var(--c-blue-ring); }
+
+/* ── Skill pill ──────────────────────────── */
+.skill-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--c-border);
+  background: var(--c-card);
+  color: var(--c-grey-1);
+  font-size: 0.82rem;
+  font-weight: 500;
+  transition: all 0.15s ease;
+  cursor: default;
+}
+.skill-pill:hover {
+  border-color: var(--c-blue-ring);
+  background: var(--c-blue-dim);
+  color: var(--c-white);
+}
+
+/* ── Blue button ─────────────────────────── */
+.btn-blue {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  background: var(--c-blue);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.875rem;
+  letter-spacing: 0.02em;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+.btn-blue:hover { opacity: 0.88; transform: translateY(-1px); }
+
+/* ── Ghost button ────────────────────────── */
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 24px;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--c-white);
+  font-weight: 600;
+  font-size: 0.875rem;
+  border: 1px solid var(--c-border-hi);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+.btn-ghost:hover { border-color: var(--c-blue-ring); background: var(--c-blue-dim); }
+
+/* ── Noise overlay (subtle film grain) ───── */
+.grain::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  z-index: 9999;
+}
+
+/* ── Dark input ──────────────────────────── */
+.field {
+  width: 100%;
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-radius: 8px;
+  padding: 13px 16px;
+  color: var(--c-white);
+  font-family: 'Syne', sans-serif;
+  font-size: 0.875rem;
+  outline: none;
+  transition: border-color 0.15s;
+}
+.field::placeholder { color: var(--c-grey-2); }
+.field:focus { border-color: var(--c-blue); }
+
+/* ── Swiper reset ────────────────────────── */
+.swiper { padding-bottom: 0 !important; }
+
+/* ── Dot indicator (status) ──────────────── */
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
+.dot-live {
+  width: 7px; height: 7px; border-radius: 50%;
+  background: var(--c-green);
+  animation: blink 2s ease infinite;
+}
+
+/* ── Category tab (skills) ───────────────── */
+.cat-tab {
+  padding: 8px 18px;
+  border-radius: 6px;
+  border: 1px solid var(--c-border);
+  background: transparent;
+  color: var(--c-grey-1);
+  font-family: 'DM Mono', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.cat-tab:hover { border-color: var(--c-border-hi); color: var(--c-white); }
+.cat-tab.active {
+  border-color: var(--c-blue);
+  background: var(--c-blue-dim);
+  color: var(--c-blue);
+}
+
+/* ── Timeline connector ──────────────────── */
+.tl-line {
+  position: absolute;
+  left: 0;
+  top: 28px;
+  bottom: 0;
+  width: 1px;
+  background: var(--c-border);
+}
